@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+praw
+transformers
+torch
+pandas
+cachetools
