@@ -17,7 +17,7 @@ app = FastAPI(title="Reddit Stock Sentiment API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # change in prod
+    allow_origins=["https://sentiment-reddit.vercel.app"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
